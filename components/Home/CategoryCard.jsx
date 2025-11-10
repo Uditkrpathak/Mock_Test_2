@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 const CategoryCard = ({ name, icon, color, onPress }) => (
+                
   <TouchableOpacity
     style={[styles.card, { backgroundColor: color }]}
     activeOpacity={0.8}

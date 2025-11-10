@@ -1,7 +1,5 @@
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
-import SearchBar from "../Home/SearchBar";
-
 export default function Header() {
   return (
     <View style={styles.container}>
